@@ -1,7 +1,7 @@
 import '@/styles/globals.css'
 import {Montserrat} from 'next/font/google'
 import Head from 'next/head'
-import NavBar from '@/components/navBar'
+import NavBar from '@/components/NavBar'
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -12,6 +12,8 @@ export default function App({ Component, pageProps }) {
   return (
     <>
     <Head>
+      <title>Home</title>
+      <meta name="description" content="Home page" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
